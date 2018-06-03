@@ -108,7 +108,8 @@ static void yescrypt_hash(const char *input, char *output)
                      (const uint8_t *) input, 80,
                      (uint8_t *) output, 32);
 
-    for(int j = 0; j < 16; j++){  // reverse output
+    int j;
+    for(j = 0; j < 16; j++){  // reverse output
         int t = output[j];
         output[j] = output[32- j - 1];
         output[32 - j - 1] = t;
