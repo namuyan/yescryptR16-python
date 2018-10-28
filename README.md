@@ -8,7 +8,7 @@ git clone git+https://github.com/namuyan/yescryptR16-python.git
 python setup.py build
 python setup.py install
 ```
-[For windows binary](https://github.com/namuyan/yescryptR16-python/releases/tag/1.0)
+~~[For windows binary](https://github.com/namuyan/yescryptR16-python/releases/tag/1.0)~~ Find mistake.
 
 ## check
 ```python
